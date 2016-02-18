@@ -36,7 +36,8 @@
             {"title":"팝니다", "url":"http://www.ddanzi.com/index.php?mid=sell"},
             {"title":"삽니다", "url":"http://www.ddanzi.com/index.php?mid=buy"},
             {"title":"구인", "url":"http://www.ddanzi.com/index.php?mid=hire"},
-            {"title":"구직", "url":"http://www.ddanzi.com/index.php?mid=job"}
+            {"title":"구직", "url":"http://www.ddanzi.com/index.php?mid=job"},
+            {"title":"무료나눔", "url":"http://www.ddanzi.com/index.php?mid=nanum"}
           ]
       },
         {
