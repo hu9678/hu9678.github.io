@@ -78,7 +78,8 @@
             {"title":"요리당", "url":"http://www.ddanzi.com/cookclub"},
             {"title":"치킨클럽", "url":"http://www.ddanzi.com/chickenclub"},
             {"title":"커피클럽", "url":"http://www.ddanzi.com/coffeeclub"},
-            {"title":"주당", "url":"http://www.ddanzi.com/alcoholclub"}
+            {"title":"주당", "url":"http://www.ddanzi.com/alcoholclub"},
+            {"title":"안익혔당", "url":"http://www.ddanzi.com/iloverawfoodsclub"}
           ]
       },
       {
@@ -104,7 +105,8 @@
           "title":"여행",
           "items":[
             {"title":"태국간당", "url":"http://www.ddanzi.com/taitripclub"},
-            {"title":"중국여행클럽", "url":"http://www.ddanzi.com/chinatripclub"}
+            {"title":"중국여행클럽", "url":"http://www.ddanzi.com/chinatripclub"},
+            {"title":"해외유람단", "url":"http://www.ddanzi.com/touristclub"}
           ]
       },
       {
@@ -122,7 +124,11 @@
             {"title":"청순당", "url":"http://www.ddanzi.com/pureclub"},
             {"title":"날씨당", "url":"http://www.ddanzi.com/weatherclub"},
             {"title":"연기난당-전자담배베이핑", "url":"http://www.ddanzi.com/ecigarettesclub"},
-            {"title":"0416 노란리본", "url":"http://www.ddanzi.com/club0416"}
+            {"title":"0416 노란리본", "url":"http://www.ddanzi.com/club0416"},
+            {"title":"헬굴탈출", "url":"http://www.ddanzi.com/hellbreakclub"},
+            {"title":"대경당", "url":"http://www.ddanzi.com/RevolutionDGclub"},
+            {"title":"타국어당", "url":"http://www.ddanzi.com/other_languageclub"},
+            {"title":"제주도당", "url":"http://www.ddanzi.com/jejudoclub"}
           ]
       },
       {
@@ -155,12 +161,14 @@
             {"title":"LOL클럽", "url":"http://www.ddanzi.com/lolclub"},
             {"title":"월탱이당", "url":"http://www.ddanzi.com/wotclub"},
             {"title":"피온삼당", "url":"http://www.ddanzi.com/fifaonline3club"},
-            {"title":"당구당", "url":"http://www.ddanzi.com/billiardsclub"},
             {"title":"리니지클럽", "url":"http://www.ddanzi.com/lineageclub"},
             {"title":"디아블로클럽", "url":"http://www.ddanzi.com/diabloclub"},
             {"title":"플스4당", "url":"http://www.ddanzi.com/ps4club"},
             {"title":"FPS게임클럽", "url":"http://www.ddanzi.com/avaclub"},
-            {"title":"COC클럽", "url":"http://www.ddanzi.com/cocclub"}
+            {"title":"COC클럽", "url":"http://www.ddanzi.com/cocclub"},
+            {"title":"와우당", "url":"http://www.ddanzi.com/wowclub"},
+            {"title":"하스스톤당", "url":"http://www.ddanzi.com/hearthstoneclub"},
+            {"title":"붐비치당", "url":"http://www.ddanzi.com/boombeachclub"}
           ]
       },
       {
@@ -286,7 +294,10 @@
             {"title":"잠수당", "url":"http://www.ddanzi.com/diveclub"},
             {"title":"사회인야구당", "url":"http://www.ddanzi.com/amabaseballclub"},
             {"title":"헬스당", "url":"http://www.ddanzi.com/healthclub"},
-            {"title":"크로스핏당", "url":"http://www.ddanzi.com/crossfitclub"}
+            {"title":"크로스핏당", "url":"http://www.ddanzi.com/crossfitclub"},
+            {"title":"배드민턴당", "url":"http://www.ddanzi.com/badmintonclub"},
+            {"title":"축구당", "url":"http://www.ddanzi.com/footballclub"},
+            {"title":"당구당", "url":"http://www.ddanzi.com/billiardsclub"}
           ]
       },
       {
