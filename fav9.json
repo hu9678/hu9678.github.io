@@ -493,7 +493,8 @@
             {"title":"스포츠", "url":"http://www.todayhumor.co.kr/board/list.php?table=sports"},
             {"title":"축구", "url":"http://www.todayhumor.co.kr/board/list.php?table=soccer"},
             {"title":"야구", "url":"http://www.todayhumor.co.kr/board/list.php?table=baseball"},
-            {"title":"농구", "url":"http://www.todayhumor.co.kr/board/list.php?table=basketball"}
+            {"title":"농구", "url":"http://www.todayhumor.co.kr/board/list.php?table=basketball"},
+            {"title":"바둑", "url":"http://www.todayhumor.co.kr/board/list.php?table=baduk"}
           ]
         },
         {
