@@ -803,6 +803,231 @@
           ]
         }
       ]
+    },
+    {
+      "key":"ppomppu",
+      "title":"뽐뿌",
+      "groups":[
+        {
+          "key":"ppom",
+          "title":"뽐뿌",
+          "items":[
+            {"title":"뽐뿌게시판", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=ppomppu"},
+            {"title":"휴대폰뽐뿌", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=ppomppu2"},
+            {"title":"해외뽐뿌", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=ppomppu4"},
+            {"title":"오프라인뽐뿌", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=ppomppu5"},
+            {"title":"뷰티뽐뿌", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=ppomppu7"},
+            {"title":"취업뽐뿌", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=saramin"},
+            {"title":"업체뽐뿌", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=ppomppu6"},
+            {"title":"휴대폰업체", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=pmarket2"},
+            {"title":"통신업체", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=pmarket3"},
+            {"title":"카드업체", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=card_market"}
+          ]
+        },
+        {
+          "key":"event",
+          "title":"이벤트",
+          "items":[
+            {"title":"이벤트게시판", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=event"},
+            {"title":"쿠폰게시판", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=coupon"},
+            {"title":"모바일이벤트", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=mobile"},
+            {"title":"체험단모집", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=experience"},
+            {"title":"다운로드쿠폰", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=wcoupon"}
+          ]
+        },
+        {
+          "key":"infomation",
+          "title":"정보",
+          "items":[
+            {"title":"기타정보", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=etc_info"},
+            {"title":"앱정보", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=ppomapp"},
+            {"title":"사용기", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=review"},
+            {"title":"수령기", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=receive"},
+            {"title":"구매게시판", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=buy"},
+            {"title":"자랑게시판", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=wow"},
+            {"title":"IT소식", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=news2"},
+            {"title":"뉴스게시판", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=news"},
+            {"title":"체험단/제휴", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=agentnews"}
+          ]
+        },
+        {
+          "key":"community",
+          "title":"커뮤니티",
+          "items":[
+            {"title":"인기글", "url":"http://m.ppomppu.co.kr/new/pop_bbs.php"},
+            {"title":"HOT게시글", "url":"http://m.ppomppu.co.kr/new/hot_bbs.php"},
+            {"title":"자유게시판", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=freeboard"},
+            {"title":"카툰/유머", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=humor"},
+            {"title":"질문/요청", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=help"},
+            {"title":"느낌있는공간", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=feel"}
+          ]
+        },
+        {
+          "key":"gallery",
+          "title":"갤러리",
+          "items":[
+            {"title":"자유갤러리", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=free_picture"},
+            {"title":"모바일갤러리", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=mobile_gallery"},
+            {"title":"그림갤러리", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=sketch_gallery"},
+            {"title":"바탕화면갤러리", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=bg_gallery"}
+          ]
+        },
+        {
+          "key":"forum1",
+          "title":"휴대폰/가전",
+          "items":[
+            {"title":"휴대폰포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=phone"},
+            {"title":"구입개통수령", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=phone3"},
+            {"title":"휴대폰질문", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=phone2"},
+            {"title":"아이폰포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=iphone"},
+            {"title":"아이패드포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=tablet"},
+            {"title":"안드로이드", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=android"},
+            {"title":"안드로이드탭", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=androidtab"},
+            {"title":"윈도우태블릿", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=wintab"},
+            {"title":"기타스마트폰", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=smartphone"},
+            {"title":"가전포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=av"},
+            {"title":"음향기기포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=mini"},
+            {"title":"컴퓨터포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=computer"},
+            {"title":"NAS포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=nas"},
+            {"title":"맥포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=macintosh"}
+          ]
+        },
+        {
+          "key":"forum2",
+          "title":"스포츠/레저",
+          "items":[
+            {"title":"골프포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=golf"},
+            {"title":"낚시포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=fishing"},
+            {"title":"농구포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=basketball"},
+            {"title":"등산포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=climb"},
+            {"title":"바이크포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=motorbike"},
+            {"title":"생활스포츠", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=lifesports"},
+            {"title":"스키/보드", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=ski"},
+            {"title":"스킨/스쿠버", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=scuba"},
+            {"title":"스포츠포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=sports"},
+            {"title":"야구포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=baseball"},
+            {"title":"사회인야구", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=ppom_baseball_team"},
+            {"title":"자동차포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=car"},
+            {"title":"자전거포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=bike"},
+            {"title":"축구포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=soccer"},
+            {"title":"캠핑포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=camping"},
+            {"title":"테니스포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=tennis"},
+            {"title":"건강/헬스", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=health"}
+          ]
+        },
+        {
+          "key":"forum3",
+          "title":"경제/지역",
+          "items":[
+            {"title":"재테크포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=money"},
+            {"title":"소셜포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=social"},
+            {"title":"보험포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=insurance"},
+            {"title":"증권포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=stock"},
+            {"title":"창업/자영업", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=soho"},
+            {"title":"비트코인", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=bitcoin"},
+            {"title":"로또포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=lotto"},
+            {"title":"토토/프로토", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=toto"},
+            {"title":"부동산포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=house"},
+            {"title":"지역별포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=offline"},
+            {"title":"국가별포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=country"},
+            {"title":"해외포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=oversea"},
+            {"title":"중국포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=china"}
+          ]
+        },
+        {
+          "key":"forum4",
+          "title":"생활",
+          "items":[
+            {"title":"결혼포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=wedding"},
+            {"title":"고민포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=problem"},
+            {"title":"대중교통", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=publictransport"},
+            {"title":"금연포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=nonsmoking"},
+            {"title":"전자담배", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=e_cig"},
+            {"title":"동식물포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=pet"},
+            {"title":"마트/편의점", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=mart"},
+            {"title":"맛집포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=restaurant"},
+            {"title":"메디컬포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=medical"},
+            {"title":"배달음식", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=delivery_food"},
+            {"title":"여행포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=tour"},
+            {"title":"연애포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=couple"},
+            {"title":"요리/레시피", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=recipe"},
+            {"title":"운세포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=fortune"},
+            {"title":"육아포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=baby"},
+            {"title":"자취포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=alone"},
+            {"title":"종교포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=religion"}
+          ]
+        },
+        {
+          "key":"forum5",
+          "title":"게임/취미",
+          "items":[
+            {"title":"게임/오락", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=game"},
+            {"title":"게임기포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=gamer"},
+            {"title":"보드게임", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=boardgame"},
+            {"title":"종목별게임", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=webgame"},
+            {"title":"카카오톡게임", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=kakao_game"},
+            {"title":"플래시게임", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=flash_game"},
+            {"title":"GTA포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=gta"},
+            {"title":"LOL포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=LOL"},
+            {"title":"디아블로포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=diablo"},
+            {"title":"피파온라인", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=fifaonline"}
+          ]
+        },
+        {
+          "key":"forum6",
+          "title":"문화",
+          "items":[
+            {"title":"TV/드라마", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=drama"},
+            {"title":"독서/e-book", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=book"},
+            {"title":"만화/애니", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=animation"},
+            {"title":"문화포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=munwha"},
+            {"title":"아나운서", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=announcer"},
+            {"title":"연예인포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=star"},
+            {"title":"영화포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=movie"},
+            {"title":"음악/악기", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=music"}
+          ]
+        },
+        {
+          "key":"forum7",
+          "title":"취미",
+          "items":[
+            {"title":"DIY포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=diy"},
+            {"title":"드론포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=rc"},
+            {"title":"사진/카메라", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=camera"},
+            {"title":"시계포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=watch"},
+            {"title":"주류포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=alcohol"},
+            {"title":"취미포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=hobby"},
+            {"title":"커피포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=coffee"}
+          ]
+        },
+        {
+          "key":"forum8",
+          "title":"그룹",
+          "items":[
+            {"title":"개발자포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=developer"},
+            {"title":"군대포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=army"},
+            {"title":"대학생포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=univ_student"},
+            {"title":"봉사포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=volunteer"}
+          ]
+        },
+        {
+          "key":"forum9",
+          "title":"기타",
+          "items":[
+            {"title":"공포포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=fear"},
+            {"title":"과학포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=science"},
+            {"title":"문구포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=mungu"},
+            {"title":"문서/서식", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=stylesheet"},
+            {"title":"뷰티/케어", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=beauty"},
+            {"title":"역사포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=history"},
+            {"title":"스타일포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=style"},
+            {"title":"전/현/무포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=whatever"},
+            {"title":"알바포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=alba"},
+            {"title":"취업포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=employment"},
+            {"title":"학습포럼", "url":"http://m.ppomppu.co.kr/new/bbs_list.php?id=study"}
+          ]
+        }
+      ]
     }
   ]
 }
