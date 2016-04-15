@@ -370,6 +370,7 @@
           "items":[
             {"title":"자유게시판", "url":"http://www.todayhumor.co.kr/board/list.php?table=freeboard"},
             {"title":"고민", "url":"http://www.todayhumor.co.kr/board/list.php?table=gomin"},
+            {"title":"연애", "url":"http://www.todayhumor.co.kr/board/list.php?table=love"},
             {"title":"좋은글", "url":"http://www.todayhumor.co.kr/board/list.php?table=lovestory"},
             {"title":"자랑", "url":"http://www.todayhumor.co.kr/board/list.php?table=boast"},
             {"title":"공포", "url":"http://www.todayhumor.co.kr/board/list.php?table=panic"},
@@ -605,6 +606,7 @@
             {"title":"팁과강좌", "url":"http://www.clien.net/cs2/bbs/board.php?bo_table=lecture"},
             {"title":"사용기게시판", "url":"http://www.clien.net/cs2/bbs/board.php?bo_table=use"},
             {"title":"체험단사용기", "url":"http://www.clien.net/cs2/bbs/board.php?bo_table=chehum"},
+            {"title":"유용한사이트", "url":"http://www.clien.net/cs2/bbs/board.php?bo_table=useful"},
             {"title":"알뜰구매", "url":"http://www.clien.net/cs2/bbs/board.php?bo_table=jirum"},
             {"title":"쿠폰/이벤트", "url":"http://www.clien.net/cs2/bbs/board.php?bo_table=coupon"},
             {"title":"직접홍보", "url":"http://www.clien.net/cs2/bbs/board.php?bo_table=hongbo"},
