@@ -371,6 +371,7 @@
             {"title":"자유게시판", "url":"http://www.todayhumor.co.kr/board/list.php?table=freeboard"},
             {"title":"고민", "url":"http://www.todayhumor.co.kr/board/list.php?table=gomin"},
             {"title":"연애", "url":"http://www.todayhumor.co.kr/board/list.php?table=love"},
+            {"title":"결혼생활", "url":"http://www.todayhumor.co.kr/board/list.php?table=wedlock"},
             {"title":"좋은글", "url":"http://www.todayhumor.co.kr/board/list.php?table=lovestory"},
             {"title":"자랑", "url":"http://www.todayhumor.co.kr/board/list.php?table=boast"},
             {"title":"공포", "url":"http://www.todayhumor.co.kr/board/list.php?table=panic"},
