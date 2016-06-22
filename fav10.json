@@ -562,7 +562,8 @@
               {"title":"스페셜포스", "url":"http://www.todayhumor.co.kr/board/list.php?table=specialforce"},
               {"title":"사이퍼즈", "url":"http://www.todayhumor.co.kr/board/list.php?table=cyphers"},
               {"title":"도타", "url":"http://www.todayhumor.co.kr/board/list.php?table=dota2"},
-              {"title":"메이플스토리2", "url":"http://www.todayhumor.co.kr/board/list.php?table=maple2"}
+              {"title":"메이플스토리2", "url":"http://www.todayhumor.co.kr/board/list.php?table=maple2"},
+              {"title":"오버워치", "url":"http://www.todayhumor.co.kr/board/list.php?table=overwatch"}
           ]
         },
         {
