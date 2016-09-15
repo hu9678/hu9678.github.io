@@ -400,6 +400,7 @@
           "title":"생활",
           "items":[
             {"title":"패션", "url":"http://www.todayhumor.co.kr/board/list.php?table=fashion"},
+            {"title":"패션착샷", "url":"http://www.todayhumor.co.kr/board/list.php?table=selfshot"},
             {"title":"뷰티", "url":"http://www.todayhumor.co.kr/board/list.php?table=beauty"},
             {"title":"인테리어", "url":"http://www.todayhumor.co.kr/board/list.php?table=interior"},
             {"title":"DIY", "url":"http://www.todayhumor.co.kr/board/list.php?table=diy"},
