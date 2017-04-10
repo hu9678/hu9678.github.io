@@ -1,0 +1,329 @@
+{
+"groups":[
+        {
+          "key":"community",
+          "title":"커뮤니티",
+          "items":[
+            {"title":"자유게시판 (BEST)", "url":"http://www.ddanzi.com/index.php?mid=free&bm=best"},
+            {"title":"자유게시판 (HOT)", "url":"http://www.ddanzi.com/index.php?mid=free&bm=hot"},
+            {"title":"자유게시판", "url":"http://www.ddanzi.com/index.php?mid=free"},
+            {"title":"갤러리 (HOT)", "url":"http://www.ddanzi.com/index.php?mid=gallery&bm=hot"},
+            {"title":"갤러리", "url":"http://www.ddanzi.com/index.php?mid=gallery"},
+            {"title":"독자리뷰 (HOT)", "url":"http://www.ddanzi.com/index.php?mid=review&bm=hot"},
+            {"title":"독자리뷰", "url":"http://www.ddanzi.com/index.php?mid=review"}
+          ]
+        },
+      {
+          "key":"market",
+          "title":"장터",
+          "items":[
+            {"title":"팝니다", "url":"http://www.ddanzi.com/index.php?mid=sell"},
+            {"title":"삽니다", "url":"http://www.ddanzi.com/index.php?mid=buy"},
+            {"title":"구인", "url":"http://www.ddanzi.com/index.php?mid=hire"},
+            {"title":"구직", "url":"http://www.ddanzi.com/index.php?mid=job"},
+            {"title":"무료나눔", "url":"http://www.ddanzi.com/index.php?mid=nanum"}
+          ]
+      },
+        {
+          "key":"doctu",
+          "title":"독투",
+          "items":[
+            {"title":"정치", "url":"http://www.ddanzi.com/index.php?mid=doctuPolitics"},
+            {"title":"경제", "url":"http://www.ddanzi.com/index.php?mid=doctuEconomy"},
+            {"title":"국제", "url":"http://www.ddanzi.com/index.php?mid=doctuGlobal"},
+            {"title":"밀리터리", "url":"http://www.ddanzi.com/index.php?mid=doctuMilitary"},
+            {"title":"지역", "url":"http://www.ddanzi.com/index.php?mid=doctuRegion"},
+            {"title":"정체불명", "url":"http://www.ddanzi.com/index.php?mid=ddanziDoctu"},
+            {"title":"문화", "url":"http://www.ddanzi.com/index.php?mid=doctuCulture"},
+            {"title":"음악", "url":"http://www.ddanzi.com/index.php?mid=doctuMusic"},
+            {"title":"연애", "url":"http://www.ddanzi.com/index.php?mid=doctuLove"},
+            {"title":"음식", "url":"http://www.ddanzi.com/index.php?mid=doctuFood"},
+            {"title":"음주", "url":"http://www.ddanzi.com/index.php?mid=doctuDrink"},
+            {"title":"육두", "url":"http://www.ddanzi.com/index.php?mid=doctuMeatball"},
+            {"title":"고민", "url":"http://www.ddanzi.com/index.php?mid=doctuAgonize"},
+            {"title":"반려동물", "url":"http://www.ddanzi.com/index.php?mid=doctuPet"},
+            {"title":"여행", "url":"http://www.ddanzi.com/index.php?mid=doctuTravel"},
+            {"title":"운동", "url":"http://www.ddanzi.com/index.php?mid=doctuSports"},
+            {"title":"모터/자전거", "url":"http://www.ddanzi.com/index.php?mid=doctuMotor"},
+            {"title":"게임", "url":"http://www.ddanzi.com/index.php?mid=doctuGame"},
+            {"title":"사진", "url":"http://www.ddanzi.com/index.php?mid=doctuPhoto"},
+            {"title":"과학", "url":"http://www.ddanzi.com/index.php?mid=doctuScience"},
+            {"title":"인문/사회과학", "url":"http://www.ddanzi.com/index.php?mid=doctuSocial"},
+            {"title":"IT", "url":"http://www.ddanzi.com/index.php?mid=doctuIT"},
+            {"title":"문화창작", "url":"http://www.ddanzi.com/index.php?mid=doctuWriting"}
+          ]
+      },
+      {
+          "key":"club1",
+          "title":"음식",
+          "items":[
+            {"title":"맛집당", "url":"http://www.ddanzi.com/tastyclub"},
+            {"title":"다이어트당", "url":"http://www.ddanzi.com/dietclub"},
+            {"title":"요리당", "url":"http://www.ddanzi.com/cookclub"},
+            {"title":"치킨클럽", "url":"http://www.ddanzi.com/chickenclub"},
+            {"title":"커피클럽", "url":"http://www.ddanzi.com/coffeeclub"},
+            {"title":"주당", "url":"http://www.ddanzi.com/alcoholclub"},
+            {"title":"안익혔당", "url":"http://www.ddanzi.com/iloverawfoodsclub"}
+          ]
+      },
+      {
+          "key":"club2",
+          "title":"가족/집",
+          "items":[
+            {"title":"육아당", "url":"http://www.ddanzi.com/childrearingclub"},
+            {"title":"혼자산당", "url":"http://www.ddanzi.com/celibateclub"},
+            {"title":"짓는당", "url":"http://www.ddanzi.com/timberhouseclub"},
+            {"title":"인테리어당", "url":"http://www.ddanzi.com/interiorclub"},
+            {"title":"아프당", "url":"http://www.ddanzi.com/illness_support_group"},
+            {"title":"아 외롭당", "url":"http://www.ddanzi.com/lonelyclub"},
+            {"title":"유부클럽", "url":"http://www.ddanzi.com/marriedclub"},
+            {"title":"물고기키운당", "url":"http://www.ddanzi.com/fishclub"},
+            {"title":"애묘당", "url":"http://www.ddanzi.com/catclub"},
+            {"title":"돌아왔당", "url":"http://www.ddanzi.com/divorceclub"},
+            {"title":"애견당", "url":"http://www.ddanzi.com/dogclub"},
+            {"title":"반려동물클럽", "url":"http://www.ddanzi.com/petclub"}
+          ]
+      },
+      {
+          "key":"club3",
+          "title":"여행",
+          "items":[
+            {"title":"태국간당", "url":"http://www.ddanzi.com/taitripclub"},
+            {"title":"중국여행클럽", "url":"http://www.ddanzi.com/chinatripclub"},
+            {"title":"해외유람단", "url":"http://www.ddanzi.com/touristclub"}
+          ]
+      },
+      {
+          "key":"club4",
+          "title":"지역/나이/기타",
+          "items":[
+            {"title":"해외당", "url":"http://www.ddanzi.com/overseasclub"},
+            {"title":"대전이당", "url":"http://www.ddanzi.com/daejeonclub"},
+            {"title":"안양클럽", "url":"http://www.ddanzi.com/anyangclub"},
+            {"title":"봉사N나눔이당", "url":"http://www.ddanzi.com/volunteerclub"},
+            {"title":"뇐네당", "url":"http://www.ddanzi.com/seniorclub"},
+            {"title":"영원한 청춘당", "url":"http://www.ddanzi.com/eternalyouthclub"},
+            {"title":"79친구당", "url":"http://www.ddanzi.com/friends79club"},
+            {"title":"부산당당", "url":"http://www.ddanzi.com/busanclub"},
+            {"title":"청순당", "url":"http://www.ddanzi.com/pureclub"},
+            {"title":"날씨당", "url":"http://www.ddanzi.com/weatherclub"},
+            {"title":"연기난당-전자담배베이핑", "url":"http://www.ddanzi.com/ecigarettesclub"},
+            {"title":"0416 노란리본", "url":"http://www.ddanzi.com/club0416"},
+            {"title":"헬굴탈출", "url":"http://www.ddanzi.com/hellbreakclub"},
+            {"title":"대경당", "url":"http://www.ddanzi.com/RevolutionDGclub"},
+            {"title":"타국어당", "url":"http://www.ddanzi.com/other_languageclub"},
+            {"title":"제주도당", "url":"http://www.ddanzi.com/jejudoclub"}
+          ]
+      },
+      {
+          "key":"club5",
+          "title":"뻘",
+          "items":[
+            {"title":"댓글봇양성당", "url":"http://www.ddanzi.com/replybotclub"},
+            {"title":"눈팅당", "url":"http://www.ddanzi.com/lookingclub"},
+            {"title":"곰이당", "url":"http://www.ddanzi.com/bearclub"},
+            {"title":"갈매기당", "url":"http://www.ddanzi.com/gullclub"},
+            {"title":"돌고래당", "url":"http://www.ddanzi.com/dolphinclub"}
+          ]
+      },
+      {
+          "key":"club6",
+          "title":"IT/컴퓨터",
+          "items":[
+            {"title":"엑셀당", "url":"http://www.ddanzi.com/excelclub"},
+            {"title":"해커당", "url":"http://www.ddanzi.com/hackerclub"},
+            {"title":"PC당", "url":"http://www.ddanzi.com/pcclub"},
+            {"title":"개발당", "url":"http://www.ddanzi.com/devclub"},
+            {"title":"NAS클럽", "url":"http://www.ddanzi.com/nasclub"},
+            {"title":"mac당", "url":"http://www.ddanzi.com/macclub"}
+          ]
+      },
+      {
+          "key":"club7",
+          "title":"게임",
+          "items":[
+            {"title":"LOL클럽", "url":"http://www.ddanzi.com/lolclub"},
+            {"title":"월탱이당", "url":"http://www.ddanzi.com/wotclub"},
+            {"title":"피온삼당", "url":"http://www.ddanzi.com/fifaonline3club"},
+            {"title":"리니지클럽", "url":"http://www.ddanzi.com/lineageclub"},
+            {"title":"디아블로클럽", "url":"http://www.ddanzi.com/diabloclub"},
+            {"title":"플스4당", "url":"http://www.ddanzi.com/ps4club"},
+            {"title":"FPS게임클럽", "url":"http://www.ddanzi.com/avaclub"},
+            {"title":"COC클럽", "url":"http://www.ddanzi.com/cocclub"},
+            {"title":"와우당", "url":"http://www.ddanzi.com/wowclub"},
+            {"title":"하스스톤당", "url":"http://www.ddanzi.com/hearthstoneclub"},
+            {"title":"붐비치당", "url":"http://www.ddanzi.com/boombeachclub"}
+          ]
+      },
+      {
+          "key":"club8",
+          "title":"사진",
+          "items":[
+            {"title":"SLR클럽", "url":"http://www.ddanzi.com/slrclub"},
+            {"title":"필름사진당", "url":"http://www.ddanzi.com/filmclub"},
+            {"title":"디지털 암실당", "url":"http://www.ddanzi.com/digitaldarkroomclub"},
+            {"title":"후지필름 클럽", "url":"http://www.ddanzi.com/fujifilmclub"},
+            {"title":"시그마카메라클럽", "url":"http://www.ddanzi.com/sigmaclub"},
+            {"title":"펜탁스당", "url":"http://www.ddanzi.com/pentaxclub"},
+            {"title":"소니/미놀타 카메라 클럽", "url":"http://www.ddanzi.com/somiclub"},
+            {"title":"니콘 카메라 클럽", "url":"http://www.ddanzi.com/nikonclub"},
+            {"title":"캐논 카메라 클럽", "url":"http://www.ddanzi.com/canonclub"},
+            {"title":"올림푸스카메라클럽", "url":"http://www.ddanzi.com/olympusclub"},
+            {"title":"천사당", "url":"http://www.ddanzi.com/astrophotographclub"}
+          ]
+      },
+      {
+          "key":"club9",
+          "title":"음악",
+          "items":[
+            {"title":"고전음악당", "url":"http://www.ddanzi.com/classicalmusicclub"},
+            {"title":"Jazz당", "url":"http://www.ddanzi.com/jazzclub"},
+            {"title":"락/메탈 음악 클럽", "url":"http://www.ddanzi.com/rockclub"},
+            {"title":"직장인밴드클럽", "url":"http://www.ddanzi.com/jobbandclub"}
+          ]
+      },
+      {
+          "key":"club10",
+          "title":"창작/연구",
+          "items":[
+            {"title":"만필당", "url":"http://www.ddanzi.com/causerieclub"},
+            {"title":"낙서당", "url":"http://www.ddanzi.com/scribbleclub"},
+            {"title":"독립영화당", "url":"http://www.ddanzi.com/indifilmclub"},
+            {"title":"생활목공클럽", "url":"http://www.ddanzi.com/diyclub"},
+            {"title":"독서클럽", "url":"http://www.ddanzi.com/readingclub"},
+            {"title":"영화당", "url":"http://www.ddanzi.com/movieclub"},
+            {"title":"애니당", "url":"http://www.ddanzi.com/aniclub"}
+          ]
+      },
+      {
+          "key":"club11",
+          "title":"수집",
+          "items":[
+            {"title":"장난감클럽", "url":"http://www.ddanzi.com/toyclub"},
+            {"title":"건프라당", "url":"http://www.ddanzi.com/gunplaclub"},
+            {"title":"하이파이오디오당", "url":"http://www.ddanzi.com/hifiaudioclub"},
+            {"title":"시계클럽", "url":"http://www.ddanzi.com/wristwatchclub"}
+          ]
+      },
+      {
+          "key":"club12",
+          "title":"성인",
+          "items":[
+            {"title":"음란변태당", "url":"http://www.ddanzi.com/pervertclub"},
+            {"title":"육두불패", "url":"http://www.ddanzi.com/meatballclub"}
+          ]
+      },
+      {
+          "key":"club13",
+          "title":"소비",
+          "items":[
+            {"title":"뽐뿌당", "url":"http://www.ddanzi.com/piclub"},
+            {"title":"휴대폰클럽", "url":"http://www.ddanzi.com/phoneclub"},
+            {"title":"해외직구당", "url":"http://www.ddanzi.com/overseaclub"},
+            {"title":"공구당", "url":"http://www.ddanzi.com/groupbuyclub"},
+            {"title":"중고차당", "url":"http://www.ddanzi.com/usedcarclub"},
+            {"title":"코슷코당", "url":"http://www.ddanzi.com/costcoclub"}
+          ]
+      },
+      {
+          "key":"club14",
+          "title":"재테크",
+          "items":[
+            {"title":"주식클럽", "url":"http://www.ddanzi.com/stockclub"},
+            {"title":"부동산재테크당", "url":"http://www.ddanzi.com/financialclub"}
+          ]
+      },
+      {
+          "key":"club15",
+          "title":"정치/역사",
+          "items":[
+            {"title":"더불어민주당", "url":"http://www.ddanzi.com/theminjooclub"},
+            {"title":"새누리당", "url":"http://www.ddanzi.com/saenuriclub"},
+            {"title":"역사당", "url":"http://www.ddanzi.com/historyclub"},
+            {"title":"밀떡방앗간", "url":"http://www.ddanzi.com/militaryclub"},
+            {"title":"딴지행동", "url":"http://www.ddanzi.com/ddanziactionclub"}
+          ]
+      },
+      {
+          "key":"club16",
+          "title":"경영",
+          "items":[
+            {"title":"회계경리당", "url":"http://www.ddanzi.com/accountingclub"},
+            {"title":"자영업당", "url":"http://www.ddanzi.com/ownerclub"}
+          ]
+      },
+      {
+          "key":"club17",
+          "title":"레포츠",
+          "items":[
+            {"title":"낚시클럽", "url":"http://www.ddanzi.com/fishingclub"},
+            {"title":"자전거클럽", "url":"http://www.ddanzi.com/bicycleClub"},
+            {"title":"캠핑클럽", "url":"http://www.ddanzi.com/campingclub"},
+            {"title":"오토바이당", "url":"http://www.ddanzi.com/motorcycleclub"},
+            {"title":"자동차 클럽", "url":"http://www.ddanzi.com/carclub"},
+            {"title":"등산클럽", "url":"http://www.ddanzi.com/mountainclub"}
+          ]
+      },
+      {
+          "key":"club18",
+          "title":"스포츠",
+          "items":[
+            {"title":"기아타이거즈클럽", "url":"http://www.ddanzi.com/kiatigersclub"},
+            {"title":"베어스당", "url":"http://www.ddanzi.com/bearsclub"},
+            {"title":"이글스당", "url":"http://www.ddanzi.com/eaglesclub"},
+            {"title":"그랑블루클럽", "url":"http://www.ddanzi.com/grandbleuclub"},
+            {"title":"스노우보드당", "url":"http://www.ddanzi.com/snowboardclub"},
+            {"title":"골프클럽", "url":"http://www.ddanzi.com/golfclub"},
+            {"title":"스키당", "url":"http://www.ddanzi.com/skiclub"},
+            {"title":"잠수당", "url":"http://www.ddanzi.com/diveclub"},
+            {"title":"사회인야구당", "url":"http://www.ddanzi.com/amabaseballclub"},
+            {"title":"헬스당", "url":"http://www.ddanzi.com/healthclub"},
+            {"title":"크로스핏당", "url":"http://www.ddanzi.com/crossfitclub"},
+            {"title":"배드민턴당", "url":"http://www.ddanzi.com/badmintonclub"},
+            {"title":"축구당", "url":"http://www.ddanzi.com/footballclub"},
+            {"title":"당구당", "url":"http://www.ddanzi.com/billiardsclub"}
+          ]
+      },
+      {
+          "key":"club19",
+          "title":"연예",
+          "items":[
+            {"title":"러블리즈 클럽", "url":"http://www.ddanzi.com/lovelyzclub"},
+            {"title":"아이유당", "url":"http://www.ddanzi.com/iuclub"},
+            {"title":"에이핑크 클럽", "url":"http://www.ddanzi.com/apinkclub"},
+            {"title":"박보영당", "url":"http://www.ddanzi.com/parkboyoungclub"}
+          ]
+      },
+      {
+          "key":"club20",
+          "title":"딴지라디오",
+          "items":[
+            {"title":"가능한 게 거의 없을 껄", "url":"http://www.ddanzi.com/possible_dog"},
+            {"title":"걸신이라 불러다오", "url":"http://www.ddanzi.com/girlgod"},
+            {"title":"김현진의 맹장전", "url":"http://www.ddanzi.com/mmjclub"},
+            {"title":"벙커1특강", "url":"http://www.ddanzi.com/bunker1"},
+            {"title":"본격게시판방송", "url":"http://www.ddanzi.com/bgbclub"},
+            {"title":"슈퍼의스타K", "url":"http://www.ddanzi.com/sskclub"},
+            {"title":"아부나이 니홍고", "url":"http://www.ddanzi.com/abunaikids"},
+            {"title":"하이피델리티", "url":"http://www.ddanzi.com/hfclub"},
+            {"title":"딴지영진공", "url":"http://www.ddanzi.com/youngjingong"},
+            {"title":"그것은 알기싫다", "url":"http://www.ddanzi.com/umcuw"},
+            {"title":"탁피디의 여행수다", "url":"http://www.ddanzi.com/tttclub"},
+            {"title":"요즘은팟캐스트시대", "url":"http://www.ddanzi.com/nowdays"},
+            {"title":"딴지이너뷰", "url":"http://www.ddanzi.com/innerview"},
+            {"title":"아닌 밤중에 주진우쇼", "url":"http://www.ddanzi.com/jjwshow"},
+            {"title":"소닉붐라이브", "url":"http://www.ddanzi.com/sonicboomlive"},
+            {"title":"김남훈의 과이언맨", "url":"http://www.ddanzi.com/gmanclub"},
+            {"title":"김홍기의 패션 메시아", "url":"http://www.ddanzi.com/khgfashion"},
+            {"title":"나는 꼼수다", "url":"http://www.ddanzi.com/ddgaka"}
+          ]
+      },
+      {
+          "key":"club21",
+          "title":"외부채널",
+          "items":[
+            {"title":"우리들의회사사용법", "url":"http://www.ddanzi.com/companymanualclub"}
+          ]
+      }
+      ]
+}
