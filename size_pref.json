@@ -1,0 +1,55 @@
+{
+  "size":{
+    "bottom_menu_text_size":15,
+    "bottom_menu_vertical_margin":18,
+
+    "navigation_header_text_size":16,
+    "navigation_item_text_size":15,
+
+    "list_title_text_size":16,
+    "list_comment_count_text_size":13,
+    "list_time_text_size":13,
+    "list_like_count_text_size":11,
+    "list_user_name_text_size":15,
+    "list_user_memo_text_size":13,
+    "list_category_text_size":10,
+
+    "list_scrap_memo_size":12,
+
+    "gallery_title_text_size":12,
+    "gallery_like_count_text_size":11,
+
+    "list_topbottom_margin":10,
+    "list_middle_margin":10,
+
+    "content_text_size":16,
+    "content_title_text_size":20,
+    "content_user_name_text_size":15,
+    "content_user_memo_text_size":15,
+    "content_time_text_size":13,
+    "content_info_text_size":9,
+    "content_view_count_text_size":13,
+    "content_like_count_text_size":12,
+
+    "market_info_text_size":13,
+
+    "history_category_text_size":11,
+    "history_title_text_size":13,
+    "history_time_text_size":11,
+
+    "comment_time_text_size":12,
+    "comment_user_name_text_size":15,
+    "comment_user_memo_text_size":15,
+    "comment_like_count_text_size":11,
+    "comment_count_text_size":13,
+
+    "content_text_line_spacing":1.4,
+
+    "bottom_toolbar_text_size":15,
+    "bottom_message_text_size":15,
+
+    "input_title_text_size":14,
+
+    "button_text_size":15
+  }
+}

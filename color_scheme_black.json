@@ -1,0 +1,114 @@
+{
+  "name":"Black",
+  "scheme": {
+    "text_color": "#adb5bd",
+    "bg_color": "#000000",
+    "alt_text_color": "#1c7cd6",
+    "alt_bg_color": "#212529",
+    "disabled_text_color": "#495057",
+    "divider_color": "#868e96",
+
+    "toolbar_bg_color": "#495057",
+    // toolbar_text_color
+    "status_bar_color": "#000000",
+    "spinner_color": "#1b6ec2",
+
+    // navigation_bg_color
+    // navigation_item_text_color
+    // navigation_item_bg_color
+    // navigation_header_text_color
+    "navigation_header_bg_color":"#212529",
+    // navigation_divider_color
+
+    // list_bg_color
+    // list_title_text_color
+    // list_user_name_text_color
+    // list_user_name_bg_color
+    "list_visited_text_color":"#495057",
+    "list_notice_bg_color":"#212529",
+    "list_user_memo_text_color":"#1b6ec2",
+    "list_user_memo_bg_color":"#a3daff",
+    "list_like_count_text_color":"#a3daff",
+    "list_like_count_bg_color":"#1862ab",
+    "list_time_text_color":"#868e96",
+    "list_category_text_color":"#868e96",
+    // list_comment_count_text_color
+    "list_comment_count_bg_color":"#495057",
+    "list_comment_count_hot_text_color":"#c92a2a",
+    "list_comment_count_hot_bg_color":"#ff8787",
+    // list_divider_color
+
+    "list_scrap_memo_text_color":"#868e96",
+    "list_scrap_memo_bg_color":"#212529",
+
+    "gallery_title_text_color":"#e9ecef",
+    "gallery_title_bg_color":"#88000000",
+    "gallery_like_count_text_color":"#f8f9fa",
+    "gallery_like_count_bg_color":"#99228ae6",
+
+    // content_title_text_color
+    // content_user_name_text_color
+    // content_user_name_bg_color
+    // content_time_text_color
+    // content_view_count_text_color
+    "content_header_bg_color":"null",
+    "content_user_memo_color":"#1862ab",
+    "content_user_memo_bg_color":"#a3daff",
+    "content_like_count_text_color":"#a3daff",
+    "content_like_count_bg_color":"#1862ab",
+    "content_info_text_color":"#1862ab",
+    // content_text_color
+    "content_more_button_color":"#868e96",
+    // content_header_divider_color
+
+    "source_bg_color":"#495057",
+    "decoding_bg_color":"#343a40",
+
+    // market_info_text_color
+    "market_info_border_color":"#495057",
+    "market_info_column1_bg_color":"#343a40",
+    // market_info_column2_bg_color
+
+    // comment_count_divider_color
+    "comment_count_bg_color":"null",
+
+    // comment_user_name_text_color
+    // comment_user_name_bg_color
+    "comment_user_memo_text_color":"#1862ab",
+    "comment_user_memo_bg_color":"#a3daff",
+    "comment_time_text_color":"#868e96",
+    "comment_more_button_color":"#868e96",
+    "comment_like_count_text_color":"#f8f9fa",
+    "comment_like_count_bg_color":"#1b6ec2",
+    // comment_header_bg_color
+    "comment_header_own_bg_color":"#212529",
+    "comment_own_bg_color":"#212529",
+    // comment_divider_color
+
+    // downloader_text_color
+    "downloader_bg_color":"#495057",
+    "downloader_progress_color":"#1b6ec2",
+
+    // bottom_view_bg_color
+
+    "bottom_menu_bg_color":"#212529",
+    // bottom_menu_text_color
+    "bottom_menu_divider_color":"#495057",
+
+    "bottom_toolbar_bg_color":"#212529",
+    "bottom_toolbar_more_button_color":"#868e96",
+    // bottom_toolbar_text_color
+    // bottom_toolbar_disabled_color
+
+    // bottom_message_text_color
+    "bottom_message_bg_color":"#dd212529",
+    "bottom_message_spinner_color":"#ffd43b",
+
+    // input_title_text_color
+    // input_tint_color
+    "input_bg_color": "#212529",
+
+    "button_text_color":"#1862ab",
+    "button_disabled_text_color":"#495057"
+  }
+}
