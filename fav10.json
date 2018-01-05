@@ -9,7 +9,7 @@
           "title":"커뮤니티",
           "items":[
             {"title":"자유게시판 (BEST)", "url":"http://www.ddanzi.com/best_all"},
-            {"title":"자유게시판 (HOT)", "http://www.ddanzi.com/hot_all"},
+            {"title":"자유게시판 (HOT)", "url":"http://www.ddanzi.com/hot_all"},
             {"title":"자유게시판", "url":"http://www.ddanzi.com/index.php?mid=free"},
             {"title":"갤러리", "url":"http://www.ddanzi.com/index.php?mid=gallery"},
             {"title":"독자리뷰", "url":"http://www.ddanzi.com/index.php?mid=review"}
