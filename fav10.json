@@ -8,12 +8,10 @@
           "key":"community",
           "title":"커뮤니티",
           "items":[
-            {"title":"자유게시판 (BEST)", "url":"http://www.ddanzi.com/index.php?mid=free&statusList=BEST&sort_index=voted_count&order_type=desc"},
-            {"title":"자유게시판 (HOT)", "url":"http://www.ddanzi.com/index.php?mid=free&statusList=HOT"},
+            {"title":"자유게시판 (BEST)", "url":"http://www.ddanzi.com/best_all"},
+            {"title":"자유게시판 (HOT)", "http://www.ddanzi.com/hot_all"},
             {"title":"자유게시판", "url":"http://www.ddanzi.com/index.php?mid=free"},
-            {"title":"갤러리 (HOT)", "url":"http://www.ddanzi.com/index.php?mid=gallery&statusList=HOT"},
             {"title":"갤러리", "url":"http://www.ddanzi.com/index.php?mid=gallery"},
-            {"title":"독자리뷰 (HOT)", "url":"http://www.ddanzi.com/index.php?mid=review&bm=hot"},
             {"title":"독자리뷰", "url":"http://www.ddanzi.com/index.php?mid=review"}
           ]
         },
