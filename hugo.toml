@@ -1,4 +1,4 @@
-baseURL = "https://example.com"
+baseURL = "https://www.code-block.com"
 title   = "CodeBlock"
 languageCode = "en-us"
 theme = "hello-friend-ng"
@@ -256,4 +256,4 @@ disableHugoGeneratorInject = false
   [[menu.main]]
     identifier = "about"
     name       = "About"
-    url        = "about/"
+    url        = "/"
