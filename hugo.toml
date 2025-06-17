@@ -252,8 +252,8 @@ disableHugoGeneratorInject = false
   [languages.en.params]
     subtitle  = "Hello Friend NG Theme"
 
-[menu]
-  [[menu.main]]
-    identifier = "about"
-    name       = "About"
-    url        = "/"
+#[menu]
+#  [[menu.main]]
+#    identifier = "about"
+#    name       = "About"
+#    url        = "/about"
