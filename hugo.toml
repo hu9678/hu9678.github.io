@@ -1,7 +1,7 @@
 baseURL = "https://www.code-block.com"
 title   = "CodeBlock"
 languageCode = "en-us"
-theme = "hello-friend-ng"
+theme = "typo"
 
 [caches]
   [caches.images]
@@ -29,6 +29,11 @@ disableRSS     = true
 disableSitemap = false
 disable404     = false
 disableHugoGeneratorInject = false
+
+# Appearance settings
+theme = 'auto'
+colorPalette = 'default'
+hideHeader = false
 
 [pagination]
   disableAliases = false
