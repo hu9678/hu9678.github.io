@@ -6,7 +6,7 @@ title = '따르륵 - 커뮤니티 모아보기'
 
 ### 여러 커뮤니티를 한 곳에 모아서 보세요.
 
-
+![Screenshot](/images/ss.png)
 [![Google Play Store](/images/google-play-badge.png)](https://play.google.com/store/apps/details?id=com.nullable.slrclub)
 
 ## 문의
