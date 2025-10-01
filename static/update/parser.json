@@ -1,0 +1,355 @@
+{
+  "version": 2,
+  "groups": [
+    {
+      "id": 1,
+      "entries": [
+        {
+          "key": "list_row",
+          "value": "#slrct > ul.list > li"
+        },
+        {
+          "key": "list_url",
+          "value": ".subject > a"
+        },
+        {
+          "key": "list_title",
+          "value": ".subject > a"
+        },
+        {
+          "key": "list_author_id",
+          "value": ".article-info > span"
+        },
+        {
+          "key": "list_author_name",
+          "value": ".article-info > span"
+        },
+        {
+          "key": "list_comment_count",
+          "value": ".cmt2"
+        },
+        {
+          "key": "detail_title",
+          "value": "#bbs_view_head > tbody > tr.first_part > td"
+        },
+        {
+          "key": "detail_author_id",
+          "value": "#bbs_view_head > tbody > tr:nth-child(2) > td.nick > span"
+        },
+        {
+          "key": "detail_author_name",
+          "value": "#bbs_view_head > tbody > tr:nth-child(2) > td.nick > span"
+        },
+        {
+          "key": "detail_author_ip_address",
+          "value": "#ip_addr"
+        },
+        {
+          "key": "detail_content",
+          "value": "#userct"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "entries": [
+        {
+          "key": "list_row",
+          "value": "#revolution_main_table > tbody > tr"
+        },
+        {
+          "key": "list_url",
+          "value": "a.baseList-title"
+        },
+        {
+          "key": "list_title",
+          "value": ".baseList-title"
+        },
+        {
+          "key": "list_thumbnail_url",
+          "value": ".baseList-thumb > img"
+        },
+        {
+          "key": "list_author_id",
+          "value": "td:nth-child(3) > div > nobr > a"
+        },
+        {
+          "key": "list_author_name",
+          "value": ".list_name"
+        },
+        {
+          "key": "list_author_image_url",
+          "value": "a.baseList-name > img"
+        },
+        {
+          "key": "list_comment_count",
+          "value": ".baseList-c, list_comment2 > span"
+        },
+        {
+          "key": "hot_list_row",
+          "value": "table.board_table > tbody > tr"
+        },
+        {
+          "key": "hot_list_url",
+          "value": "td:nth-child(3) > a"
+        },
+        {
+          "key": "hot_list_title",
+          "value": "td:nth-child(3) a"
+        },
+        {
+          "key": "hot_list_author_id",
+          "value": "td:nth-child(4) > a"
+        },
+        {
+          "key": "hot_list_author_name",
+          "value": "td:nth-child(4)"
+        },
+        {
+          "key": "detail_title",
+          "value": "h1"
+        },
+        {
+          "key": "detail_author_id",
+          "value": "#topTitle .baseList-name"
+        },
+        {
+          "key": "detail_author_name",
+          "value": ".topTitle-name"
+        },
+        {
+          "key": "detail_author_image_url",
+          "value": "a.baseList-name > img"
+        },
+        {
+          "key": "detail_content",
+          "value": "td.board-contents"
+        },
+        {
+          "key": "comment_content",
+          "value": "div.over_hide.link-point"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "entries": [
+        {
+          "key": "list_row",
+          "value": "#boardWrap ul > li"
+        },
+        {
+          "key": "list_url",
+          "value": ".titleBox > a"
+        },
+        {
+          "key": "list_title",
+          "value": ".titleBox > a > .title"
+        },
+        {
+          "key": "list_author_id",
+          "value": ".author > a"
+        },
+        {
+          "key": "list_author_name",
+          "value": ".author > a"
+        },
+        {
+          "key": "list_comment_count",
+          "value": ".titleBox .talk"
+        },
+        {
+          "key": "detail_title",
+          "value": ".top_title > h1"
+        },
+        {
+          "key": "detail_author_id",
+          "value": ".top_title > .right > a"
+        },
+        {
+          "key": "detail_author_name",
+          "value": ".top_title > .right > a"
+        },
+        {
+          "key": "detail_content",
+          "value": ".read_content .xe_content"
+        },
+        {
+          "key": "comment_row",
+          "value": "ul > li"
+        },
+        {
+          "key": "comment_author_id",
+          "value": ".author > a"
+        },
+        {
+          "key": "comment_author_name",
+          "value": ".author > a"
+        },
+        {
+          "key": "comment_content",
+          "value": ".xe_content"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "entries": [
+        {
+          "key": "list_row",
+          "value": ".content_list .list_item"
+        },
+        {
+          "key": "list_title",
+          "value": "span[data-role=list-title-text]"
+        },
+        {
+          "key": "list_author_image_url",
+          "value": ".nickimg > img"
+        },
+        {
+          "key": "detail_content",
+          "value": ".post_content .post_article"
+        },
+        {
+          "key": "comment_row",
+          "value": "div.comment_row"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "entries": [
+        {
+          "key": "list_url",
+          "value": "td.subject > div > a, td.subject > a"
+        },
+        {
+          "key": "list_title",
+          "value": "td.subject > div > a, td.subject > a > strong, td.subject > a"
+        },
+        {
+          "key": "list_author_id",
+          "value": "input.member_srl"
+        },
+        {
+          "key": "list_author_name",
+          "value": ".writer.text_over > a, .writer.text_over"
+        },
+        {
+          "key": "list_comment_count",
+          "value": ".num_reply"
+        },
+        {
+          "key": "detail_author_id",
+          "value": ".user_info span.member_srl"
+        },
+        {
+          "key": "detail_author_name",
+          "value": ".user_info .nick"
+        },
+        {
+          "key": "detail_author_ip_address",
+          "value": ".user_info .ip_show"
+        },
+        {
+          "key": "comment_author_id",
+          "value": "td.user input.member_srl"
+        },
+        {
+          "key": "comment_author_name",
+          "value": "td.user div.nick strong span"
+        },
+        {
+          "key": "comment_author_ip_address",
+          "value": "td.user p.nick_info > .ip_show"
+        },
+        {
+          "key": "comment_content",
+          "value": "td.comment > div.text_wrapper"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "entries": [
+        {
+          "key": "list_row",
+          "value": "#bo_list > ul > li"
+        },
+        {
+          "key": "list_url",
+          "value": "div > a"
+        },
+        {
+          "key": "list_title",
+          "value": "div > a"
+        },
+        {
+          "key": "list_author_id",
+          "value": ".sv_member"
+        },
+        {
+          "key": "list_author_name",
+          "value": ".sv_name"
+        },
+        {
+          "key": "list_author_image_url",
+          "value": ".sv_member > img"
+        },
+        {
+          "key": "list_comment_count",
+          "value": ".count-plus"
+        },
+        {
+          "key": "detail_author_id",
+          "value": ".sv_member"
+        },
+        {
+          "key": "detail_author_name",
+          "value": ".sv_name"
+        },
+        {
+          "key": "detail_author_image_url",
+          "value": ".sv_member > img"
+        },
+        {
+          "key": "detail_author_ip_address",
+          "value": ".sv_member"
+        },
+        {
+          "key": "detail_title",
+          "value": "#bo_v_title"
+        },
+        {
+          "key": "detail_content",
+          "value": "#bo_v_con"
+        },
+        {
+          "key": "comment_row",
+          "value": "#bo_vc > article"
+        },
+        {
+          "key": "comment_author_id",
+          "value": ".sv_member"
+        },
+        {
+          "key": "comment_author_name",
+          "value": ".sv_name"
+        },
+        {
+          "key": "comment_author_image_url",
+          "value": ".sv_member > img"
+        },
+        {
+          "key": "comment_author_ip_address",
+          "value": ".ms-1"
+        },
+        {
+          "key": "comment_content",
+          "value": "div.na-convert"
+        }
+      ]
+    }
+  ]
+}
