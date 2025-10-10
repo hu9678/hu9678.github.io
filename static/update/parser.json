@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "groups": [
     {
       "id": 1,
@@ -83,7 +83,7 @@
         },
         {
           "key": "list_comment_count",
-          "value": ".baseList-c, list_comment2 > span"
+          "value": ".baseList-c, .list_comment2 > span"
         },
         {
           "key": "hot_list_row",
@@ -173,6 +173,10 @@
         {
           "key": "detail_content",
           "value": ".read_content .xe_content"
+        },
+        {
+          "key": "detail_link",
+          "value": "#board_display > div.boardR > div:nth-child(2) > div.exForm.exRead > table > tbody > tr > td > a"
         },
         {
           "key": "comment_row",
