@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "groups": [
     {
       "id": 1,
@@ -283,11 +283,11 @@
         },
         {
           "key": "list_url",
-          "value": "div > a"
+          "value": "div > a:not(.badge)"
         },
         {
           "key": "list_title",
-          "value": "div > a"
+          "value": "div > a:not(.badge)"
         },
         {
           "key": "list_author_id",
