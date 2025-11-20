@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "groups": [
     {
       "id": 1,
@@ -327,7 +327,7 @@
         },
         {
           "key": "detail_content",
-          "value": "#bo_v_con"
+          "value": "#bo_v_con > #bo_v_con"
         },
         {
           "key": "comment_row",
