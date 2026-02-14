@@ -1,5 +1,5 @@
 {
-  "version": 7,
+  "version": 8,
   "groups": [
     {
       "id": 1,
@@ -115,7 +115,7 @@
         },
         {
           "key": "detail_author_name",
-          "value": ".topTitle-name"
+          "value": ".topTitle-name .baseList-name, .topTitle-name"
         },
         {
           "key": "detail_author_image_url",
