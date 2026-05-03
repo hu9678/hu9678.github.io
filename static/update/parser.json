@@ -1,5 +1,5 @@
 {
-  "version": 8,
+  "version": 9,
   "groups": [
     {
       "id": 1,
@@ -271,6 +271,67 @@
         {
           "key": "comment_content",
           "value": "td.comment > div.text_wrapper"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "entries": [
+        {
+          "key": "list_row",
+          "value": "main > section > div > ul > li"
+        },
+        {
+          "key": "list_url",
+          "value": ".inline-flex > a.body-m"
+        },
+        {
+          "key": "list_title",
+          "value": ".inline-flex > a.body-m"
+        },
+        {
+          "key": "list_author_name",
+          "value": ".nickname"
+        },
+        {
+          "key": "list_author_image_url",
+          "value": ".member-icon"
+        },
+        {
+          "key": "list_comment_count",
+          "value": ".comment-xs"
+        },
+        {
+          "key": "list_view_count",
+          "value": ".caption-s.w-12"
+        },
+        {
+          "key": "list_like_count",
+          "value": ".caption-s.w-8"
+        },
+        {
+          "key": "list_time",
+          "value": ".caption-s.w-11"
+        },
+        {
+          "key": "detail_title",
+          "value": "main > article > section:nth-child(2) h1"
+        },
+        {
+          "key": "detail_author_name",
+          "value": ".nickname"
+        },
+        {
+          "key": "detail_author_image_url",
+          "value": ".member-icon"
+        },
+        {
+          "key": "detail_link",
+          "value": "article > div > div:nth-child(2) > div > div > div:nth-child(2) > a"
+        },
+        {
+          "key": "detail_content",
+          "value": "main > article .view-content"
         }
       ]
     },
