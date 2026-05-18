@@ -1,5 +1,5 @@
 {
-  "version": 9,
+  "version": 10,
   "groups": [
     {
       "id": 1,
@@ -243,6 +243,10 @@
         {
           "key": "list_comment_count",
           "value": ".num_reply"
+        },
+        {
+          "key": "list_next_page",
+          "value": ".paging_wrapper > .active"
         },
         {
           "key": "detail_author_id",
