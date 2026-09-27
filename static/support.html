@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="따르륵 앱 고객 지원 및 문의 안내">
+    <meta name="theme-color" content="#f7f4ee">
+    <title>따르륵 고객 지원</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --paper: #f7f4ee;
+        --ink: #20201e;
+        --muted: #696761;
+        --line: #d9d4ca;
+        --accent: #3559e0;
+        --accent-soft: #e3e9ff;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        min-height: 100%;
+        background: var(--paper);
+      }
+
+      body {
+        min-height: 100vh;
+        min-height: 100svh;
+        margin: 0;
+        color: var(--ink);
+        background:
+          radial-gradient(circle at 85% 12%, rgba(53, 89, 224, 0.09), transparent 28rem),
+          var(--paper);
+        font-family: Pretendard, -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo",
+          "Noto Sans KR", "Segoe UI", sans-serif;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      main {
+        width: min(100% - 40px, 720px);
+        min-height: 100vh;
+        min-height: 100svh;
+        margin: 0 auto;
+        padding: clamp(64px, 12vh, 128px) 0 48px;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin: 0 0 72px;
+        font-size: 15px;
+        font-weight: 700;
+        letter-spacing: -0.02em;
+        animation: rise 600ms ease-out both;
+      }
+
+      .brand-mark {
+        position: relative;
+        width: 30px;
+        height: 30px;
+        border-radius: 9px;
+        background: var(--accent);
+        box-shadow: 0 8px 24px rgba(53, 89, 224, 0.2);
+      }
+
+      .brand-mark::before,
+      .brand-mark::after {
+        content: "";
+        position: absolute;
+        top: 10px;
+        width: 2px;
+        height: 10px;
+        border-radius: 99px;
+        background: #fff;
+        transform: rotate(-16deg);
+      }
+
+      .brand-mark::before {
+        left: 10px;
+      }
+
+      .brand-mark::after {
+        right: 10px;
+      }
+
+      .eyebrow {
+        margin: 0 0 16px;
+        color: var(--accent);
+        font-size: 13px;
+        font-weight: 800;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        animation: rise 600ms 80ms ease-out both;
+      }
+
+      h1 {
+        max-width: 620px;
+        margin: 0;
+        font-size: clamp(42px, 8vw, 76px);
+        font-weight: 750;
+        letter-spacing: -0.055em;
+        line-height: 1.02;
+        word-break: keep-all;
+        animation: rise 650ms 140ms ease-out both;
+      }
+
+      .intro {
+        max-width: 520px;
+        margin: 28px 0 0;
+        color: var(--muted);
+        font-size: clamp(17px, 2.5vw, 20px);
+        letter-spacing: -0.025em;
+        line-height: 1.75;
+        word-break: keep-all;
+        animation: rise 650ms 200ms ease-out both;
+      }
+
+      .links {
+        margin: clamp(64px, 11vh, 112px) 0 0;
+        border-top: 1px solid var(--line);
+        animation: rise 650ms 280ms ease-out both;
+      }
+
+      .support-link {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto;
+        align-items: center;
+        gap: 24px;
+        min-height: 98px;
+        padding: 22px 4px;
+        color: inherit;
+        text-decoration: none;
+        border-bottom: 1px solid var(--line);
+        transition: color 180ms ease, padding 180ms ease;
+      }
+
+      .support-link:hover,
+      .support-link:focus-visible {
+        color: var(--accent);
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+
+      .support-link:focus-visible {
+        outline: 3px solid var(--accent-soft);
+        outline-offset: 4px;
+      }
+
+      .link-label {
+        display: block;
+        margin-bottom: 7px;
+        color: var(--muted);
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: -0.01em;
+      }
+
+      .link-value {
+        display: block;
+        overflow-wrap: anywhere;
+        font-size: clamp(17px, 3vw, 21px);
+        font-weight: 650;
+        letter-spacing: -0.025em;
+      }
+
+      .arrow {
+        font-size: 24px;
+        transition: transform 180ms ease;
+      }
+
+      .support-link:hover .arrow,
+      .support-link:focus-visible .arrow {
+        transform: translate(4px, -4px);
+      }
+
+      footer {
+        margin-top: auto;
+        padding-top: 72px;
+        color: var(--muted);
+        font-size: 13px;
+        animation: rise 650ms 340ms ease-out both;
+      }
+
+      @keyframes rise {
+        from {
+          opacity: 0;
+          transform: translateY(14px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      @media (max-width: 520px) {
+        main {
+          width: min(100% - 32px, 720px);
+          padding-top: 40px;
+        }
+
+        .brand {
+          margin-bottom: 56px;
+        }
+
+        .support-link {
+          min-height: 92px;
+        }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        *,
+        *::before,
+        *::after {
+          scroll-behavior: auto !important;
+          animation-duration: 0.01ms !important;
+          animation-iteration-count: 1 !important;
+          transition-duration: 0.01ms !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="brand" aria-label="따르륵">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>따르륵</span>
+      </div>
+
+      <section aria-labelledby="support-title">
+        <p class="eyebrow">Support</p>
+        <h1 id="support-title">따르륵<br>고객 지원</h1>
+        <p class="intro">
+          앱 이용 중 발생한 문제나 개선 의견은 아래 이메일로 보내주세요.
+        </p>
+      </section>
+
+      <nav class="links" aria-label="고객 지원 링크">
+        <a class="support-link" href="https://code-block.com/privacy_policy.html">
+          <span>
+            <span class="link-label">개인정보처리방침</span>
+            <span class="link-value">code-block.com/privacy_policy.html</span>
+          </span>
+          <span class="arrow" aria-hidden="true">↗</span>
+        </a>
+
+        <a class="support-link" href="mailto:hu9678@gmail.com">
+          <span>
+            <span class="link-label">문의 이메일</span>
+            <span class="link-value">hu9678@gmail.com</span>
+          </span>
+          <span class="arrow" aria-hidden="true">↗</span>
+        </a>
+      </nav>
+
+      <footer>© 따르륵</footer>
+    </main>
+  </body>
+</html>

@@ -9,5 +9,5 @@ title = '따르륵 - 커뮤니티 모아보기'
 ![Screenshot](/images/ss.png)
 [![Google Play Store](/images/google-play-badge.png)](https://play.google.com/store/apps/details?id=com.nullable.slrclub)
 
-## 문의
-📧 [contact@code-block.com](mailto:contact@code-block.com)
+## 고객 지원
+[따르륵 고객 지원 페이지로 이동](/support.html)
