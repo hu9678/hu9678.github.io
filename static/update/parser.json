@@ -1,5 +1,5 @@
 {
-  "version": 10,
+  "version": 11,
   "groups": [
     {
       "id": 1,
@@ -323,11 +323,11 @@
         },
         {
           "key": "detail_author_name",
-          "value": ".nickname"
+          "value": "article .nickname"
         },
         {
           "key": "detail_author_image_url",
-          "value": ".member-icon"
+          "value": "article .member-icon"
         },
         {
           "key": "detail_link",
