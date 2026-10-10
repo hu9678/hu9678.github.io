@@ -1,0 +1,44 @@
+.store-badges {
+  --badge-height: 48px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px;
+  margin-block: 1.5rem;
+}
+
+.store-badge {
+  display: block;
+  flex: none;
+  height: var(--badge-height);
+}
+
+.store-badge img {
+  display: block;
+  max-width: none;
+}
+
+/* The Google Play PNG has 17px of transparent padding around its 266x82px badge. */
+.store-badge-google-play {
+  width: calc(var(--badge-height) * 266 / 82);
+  overflow: hidden;
+}
+
+.store-badge-google-play img {
+  width: calc(var(--badge-height) * 300 / 82);
+  height: calc(var(--badge-height) * 116 / 82);
+  margin-top: calc(var(--badge-height) * -17 / 82);
+  margin-left: calc(var(--badge-height) * -17 / 82);
+}
+
+.store-badge-app-store img {
+  width: auto;
+  height: var(--badge-height);
+}
+
+@media (max-width: 380px) {
+  .store-badges {
+    --badge-height: 40px;
+    gap: 12px;
+  }
+}
