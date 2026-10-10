@@ -9,5 +9,7 @@ title = '따르륵 - 커뮤니티 모아보기'
 ![Screenshot](/images/ss.png)
 [![Google Play Store](/images/google-play-badge.png)](https://play.google.com/store/apps/details?id=com.nullable.slrclub)
 
+[![Download on the App Store](/images/app-store-badge.svg)](https://apps.apple.com/app/id6751495263)
+
 ## 고객 지원
 [따르륵 고객 지원 페이지로 이동](/support.html)
