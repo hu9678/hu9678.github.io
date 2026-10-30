@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ .Title }}</title>
+    <meta name="description" content="여러 커뮤니티를 한 곳에서. 게시판 모아보기, 즐겨찾기, 다크모드로 더 편안하게 둘러보세요. 따르륵은 iOS와 Android에서 만날 수 있습니다.">
+    <meta name="theme-color" content="#f7f4ee">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ .Title }}">
+    <meta property="og:description" content="여러 커뮤니티를 한 곳에서. 따르륵과 함께 가볍게 둘러보세요.">
+    <meta property="og:url" content="{{ .Permalink }}">
+    <meta property="og:image" content="{{ "images/ss.png" | absURL }}">
+    <meta property="og:locale" content="ko_KR">
+    <link rel="canonical" href="{{ .Permalink }}">
+    <link rel="icon" href="{{ "images/brand-mark.svg" | relURL }}" type="image/svg+xml">
+    {{- $style := resources.Get "css/landing.css" | minify | fingerprint -}}
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">본문으로 건너뛰기</a>
+    <header class="site-header">
+      <div class="header-inner frame">
+        <a class="brand" href="{{ .RelPermalink }}" aria-label="따르륵 홈">
+          <img src="{{ "images/brand-mark.svg" | relURL }}" width="32" height="32" alt="">
+          <span>따르륵</span>
+        </a>
+        <nav class="site-nav" aria-label="주 메뉴">
+          <a href="#features">주요 기능</a>
+          <a href="{{ "support.html" | relURL }}">고객 지원</a>
+          <a class="nav-download" href="#download">앱 다운로드 <span aria-hidden="true">↗</span></a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-inner frame">
+          <div class="hero-copy">
+            <p class="eyebrow intro-appear">일상의 커뮤니티, 더 가깝게</p>
+            <h1 id="hero-title" class="intro-appear">
+              <span class="product-name">따르륵<span class="brand-period">.</span></span>
+              <span class="hero-promise">여러 커뮤니티를,<br><em>한 곳에서.</em></span>
+            </h1>
+            <p class="hero-description intro-appear">늘 들르던 게시판부터 반가운 새 소식까지.<br> 이제 따르륵에서 가볍게 둘러보세요.</p>
+            <div class="hero-download intro-appear">
+              {{ partial "store-badges.html" . }}
+              <p class="platform-note">iOS · Android에서 만나요</p>
+            </div>
+            <a class="explore-link intro-appear" href="#features">따르륵 둘러보기 <span aria-hidden="true">↓</span></a>
+          </div>
+          <figure class="hero-visual intro-appear">
+            <div class="preview-heading"><span class="status-dot" aria-hidden="true"></span> 여러 커뮤니티, 하나의 앱</div>
+            <div class="phone">
+              <img class="app-screen" src="{{ "images/ss.png" | relURL }}" alt="따르륵에서 뽐뿌 뽐뿌게시판의 상품 목록을 모아보는 실제 앱 화면" width="324" height="665" fetchpriority="high">
+            </div>
+            <figcaption><span>따르륵의 실제 화면</span><span class="mono">APP PREVIEW / 01</span></figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="features frame" id="features" aria-labelledby="features-title">
+        <div class="section-heading">
+          <p class="eyebrow">익숙한 즐거움, 편안한 탐색</p>
+          <h2 id="features-title">커뮤니티를 즐기는<br>조금 더 간편한 방법.</h2>
+          <p class="section-description">자주 찾는 곳은 가까이,<br> 읽는 순간은 내 취향에 맞게.</p>
+        </div>
+        <div class="feature-list">
+          <article class="feature">
+            <p class="feature-label"><span class="mono">01</span> 게시판 모아보기</p>
+            <h3>게시판은 여러 개.<br>보는 곳은 하나로.</h3>
+            <p>최대 5개의 게시판을 한 번에 불러와 보세요. 여러 게시판의 소식을 한 곳에서 확인할 수 있어요.</p>
+            <div class="feature-illustration merge-illustration" aria-hidden="true">
+              <span>게시판 01</span><span>게시판 02</span><span>게시판 03</span><span class="merge-result">따르륵 <b>↗</b></span>
+            </div>
+          </article>
+          <article class="feature">
+            <p class="feature-label"><span class="mono">02</span> 즐겨찾기</p>
+            <h3>자주 가는 곳은,<br>더 가까이.</h3>
+            <p>좋아하는 게시판을 즐겨찾기에 담고, 관련 있는 게시판은 그룹으로 정리해 보세요.</p>
+            <div class="feature-illustration favorite-illustration" aria-hidden="true">
+              <span>나의 즐겨찾기 <b>☆</b></span>
+              <span><i></i> 매일 들르는 곳 <b>↗</b></span>
+            </div>
+          </article>
+          <article class="feature">
+            <p class="feature-label"><span class="mono">03</span> 다크모드</p>
+            <h3>하루의 끝에도,<br>편안한 화면.</h3>
+            <p>어두운 화면이 편한 순간에는 다크모드로. 내게 맞는 화면으로 커뮤니티를 둘러보세요.</p>
+            <div class="feature-illustration mode-illustration" aria-hidden="true">
+              <span class="light-mode">Aa <b>☼</b></span><span class="dark-mode">Aa <b>☾</b></span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="download-section" id="download" aria-labelledby="download-title">
+        <div class="download-inner frame">
+          <div>
+            <p class="eyebrow">손 안에서 만나는 커뮤니티</p>
+            <h2 id="download-title">반가운 이야기들,<br>이제 <span>따르륵</span>에서.</h2>
+          </div>
+          <div class="download-actions">
+            <p>사용하는 기기에 맞게 다운로드하세요.</p>
+            {{ partial "store-badges.html" . }}
+            <p class="platform-note">iPhone · Android</p>
+          </div>
+        </div>
+      </section>
+
+      <aside class="support-strip frame" aria-label="고객 지원 안내">
+        <div><span class="support-symbol" aria-hidden="true">↳</span><p>더 나은 따르륵을 함께 만들어요.<br><span>불편한 점이나 좋은 아이디어가 있다면 알려주세요.</span></p></div>
+        <a class="text-link" href="{{ "support.html" | relURL }}">고객 지원 <span aria-hidden="true">↗</span></a>
+      </aside>
+    </main>
+
+    <footer class="site-footer frame">
+      <div class="footer-brand"><a class="brand" href="{{ .RelPermalink }}"><img src="{{ "images/brand-mark.svg" | relURL }}" width="24" height="24" alt=""><span>따르륵</span></a><span>© {{ now.Year }} CodeBlock</span></div>
+      <nav aria-label="하단 메뉴"><a href="{{ "support.html" | relURL }}">고객 지원</a><a href="{{ "privacy_policy.html" | relURL }}">개인정보처리방침</a><a class="back-to-top" href="#" aria-label="페이지 맨 위로">맨 위로 ↑</a></nav>
+    </footer>
+  </body>
+</html>

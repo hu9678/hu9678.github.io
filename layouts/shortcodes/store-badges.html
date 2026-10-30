@@ -1,9 +1,1 @@
-{{- $googlePlayBadge := .Page.Resources.Get "images/google-play-badge.png" -}}
-<div class="store-badges">
-  <a class="store-badge store-badge-google-play" href="https://play.google.com/store/apps/details?id=com.nullable.slrclub">
-    <img src="{{ $googlePlayBadge.RelPermalink }}" alt="Google Play에서 다운로드" width="300" height="116">
-  </a>
-  <a class="store-badge store-badge-app-store" href="https://apps.apple.com/app/id6751495263">
-    <img src="{{ "images/app-store-badge.svg" | relURL }}" alt="App Store에서 다운로드" width="300" height="100.281">
-  </a>
-</div>
+{{ partial "store-badges.html" .Page }}
