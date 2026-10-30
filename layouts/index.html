@@ -1,37 +1,10 @@
 <!doctype html>
 <html lang="ko">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ .Title }}</title>
-    <meta name="description" content="여러 커뮤니티를 한 곳에서. 게시판 모아보기, 즐겨찾기, 다크모드로 더 편안하게 둘러보세요. 따르륵은 iOS와 Android에서 만날 수 있습니다.">
-    <meta name="theme-color" content="#f7f4ee">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="{{ .Title }}">
-    <meta property="og:description" content="여러 커뮤니티를 한 곳에서. 따르륵과 함께 가볍게 둘러보세요.">
-    <meta property="og:url" content="{{ .Permalink }}">
-    <meta property="og:image" content="{{ "images/ss.png" | absURL }}">
-    <meta property="og:locale" content="ko_KR">
-    <link rel="canonical" href="{{ .Permalink }}">
-    <link rel="icon" href="{{ "images/brand-mark.svg" | relURL }}" type="image/svg+xml">
-    {{- $style := resources.Get "css/landing.css" | minify | fingerprint -}}
-    <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
+    {{ partial "site-head.html" . }}
   </head>
   <body>
-    <a class="skip-link" href="#main">본문으로 건너뛰기</a>
-    <header class="site-header">
-      <div class="header-inner frame">
-        <a class="brand" href="{{ .RelPermalink }}" aria-label="따르륵 홈">
-          <img src="{{ "images/brand-mark.svg" | relURL }}" width="32" height="32" alt="">
-          <span>따르륵</span>
-        </a>
-        <nav class="site-nav" aria-label="주 메뉴">
-          <a href="#features">주요 기능</a>
-          <a href="{{ "support.html" | relURL }}">고객 지원</a>
-          <a class="nav-download" href="#download">앱 다운로드 <span aria-hidden="true">↗</span></a>
-        </nav>
-      </div>
-    </header>
+    {{ partial "site-header.html" . }}
 
     <main id="main">
       <section class="hero" aria-labelledby="hero-title">
@@ -114,9 +87,6 @@
       </aside>
     </main>
 
-    <footer class="site-footer frame">
-      <div class="footer-brand"><a class="brand" href="{{ .RelPermalink }}"><img src="{{ "images/brand-mark.svg" | relURL }}" width="24" height="24" alt=""><span>따르륵</span></a><span>© {{ now.Year }} CodeBlock</span></div>
-      <nav aria-label="하단 메뉴"><a href="{{ "support.html" | relURL }}">고객 지원</a><a href="{{ "privacy_policy.html" | relURL }}">개인정보처리방침</a><a class="back-to-top" href="#" aria-label="페이지 맨 위로">맨 위로 ↑</a></nav>
-    </footer>
+    {{ partial "site-footer.html" . }}
   </body>
 </html>

@@ -1,0 +1,16 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ .Title }}</title>
+{{- $description := .Description | default "여러 커뮤니티를 한 곳에서. 게시판 모아보기, 즐겨찾기, 다크모드로 더 편안하게 둘러보세요. 따르륵은 iOS와 Android에서 만날 수 있습니다." -}}
+<meta name="description" content="{{ $description }}">
+<meta name="theme-color" content="#f7f4ee">
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{ .Title }}">
+<meta property="og:description" content="{{ $description }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:image" content="{{ "images/ss.png" | absURL }}">
+<meta property="og:locale" content="ko_KR">
+<link rel="canonical" href="{{ .Permalink }}">
+<link rel="icon" href="{{ "images/brand-mark.svg" | relURL }}" type="image/svg+xml">
+{{- $style := resources.Get "css/landing.css" | minify | fingerprint -}}
+<link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
